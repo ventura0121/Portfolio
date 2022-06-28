@@ -7,13 +7,15 @@
 
 //console.log connected
 
+//grabs projects and gives it an eventlistener to highlight projects when clicked 
 const projectElement = document.querySelector(".flex-container2");
 
-projectElement.addEventListener('mouseenter', entering);
+projectElement.addEventListener('click', entering);
 function entering() {
     projectElement.classList.toggle('blue')
     }
 
+// Expands gif size when clicked
 const gifElement = document.querySelector('img');
 
 gifElement.addEventListener('click', expandGif);
@@ -21,11 +23,11 @@ function expandGif() {
     gifElement.classList.toggle('imgResize');
     }
 
-
+//Hides the projects when header is double clicked.
 const informationElement = document.querySelector('.projects');
 const informationLinks = document.querySelector('.flex-container2');
 
-informationElement.addEventListener('click', hideFont);
+informationElement.addEventListener('dblclick', hideFont);
 function hideFont() {
     informationLinks.classList.toggle('hide');
     }
