@@ -107,7 +107,7 @@ p::first-letter {
     background-color: skyblue;
 }
 /* This highlights projects in blue */
-.size{
+.imgResize{
     width: 500px;
     height: auto;
     margin:auto;
