@@ -16,10 +16,12 @@ As a family member, I want to see what Felipe has learned to do in his time in B
 ### MVP Goals
 
 Use HTML, CSS, Javascript to create portfolio
+
 Include personal photo
-Bio
-Social Links
-Resume Link
+
+Bio,
+Social Links,
+Resume Link,
 Screen Size compatibility
 
 ### Stretch Goals
@@ -28,3 +30,26 @@ Contact Form
 Showcase Personality
 
 ### Anything Else You'd Like Us to Know
+
+To begin the project, a html, css, and javascript file were created. The CSS and javascript where then linked to html. 
+In html Headers, divs, and lists where then created and assigned classes. Text was then added. 
+
+Using CSS - For the body of the project, the font and background color was chosen. Using https://heropatterns.com/ a background image was obtained for the portfolio. To make text legible, a black border was created.
+Links were created out of the list. The links consists of resume, linkedin, github, and email. 
+Two flex boxes were created and modified to organize text. 
+GIF was created and uploaded to fit in flexbox One. 
+All paragraphs have the first letter of text with a different style. 
+The "projects" header was adjusted to stand out more. 
+
+Media queries were then added to the css file to be compatible with mobile devices. The flex boxes are to shift to columns when screen size is below 768 px. GIF to be resised to fit 100% of the screen. 
+
+In Javascript, event listeners were added to make the site interactable. The flex container for project becomes highlighted blue when clicked on, can become hidden when the header "project is double clicked on", and the GIF expands when clicked on. 
+
+
+
+
+
+
+
+
+
