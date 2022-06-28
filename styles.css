@@ -35,8 +35,28 @@ h1 {
 
 .flex-container2{
     display: flex;
-    align-content: center;
     margin: auto;
+    border: 2px white solid;
+    height: 500px;
+    font-size: larger;
+}
+
+.projectOne {
+    flex: 2;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.projectTwo {
+    flex: 2;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.projectThree {
+    flex: 2;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
 }
 
 h2 {
@@ -68,7 +88,7 @@ ul{
 }
 
 p::first-letter {
-        font-size: 130%;
+        font-size: 120%;
         color: white;
 }
 

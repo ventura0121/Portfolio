@@ -3,7 +3,7 @@
 // Link resume and additional contact information. COMPLETE
 // Add a row to display projects
 // Use Javascript to create 3 points of interactions
-// Implement Responsive design
+// Implement Responsive design. COMPLETE
 
 //console.log connected
 
