@@ -45,6 +45,10 @@ Media queries were then added to the css file to be compatible with mobile devic
 
 In Javascript, event listeners were added to make the site interactable. The flex container for project becomes highlighted blue when clicked on, can become hidden when the header "project is double clicked on", and the GIF expands when clicked on. 
 
+Obstacles for the creation of the portfolio were attempting to hover over the GIF and make it expand in size using mouseenter and mouseleave as event listeners. It did not work clicked was used in lieu. 
+
+Portfolio may be found here https://frolicking-jalebi-d40739.netlify.app/
+
 
 
 
