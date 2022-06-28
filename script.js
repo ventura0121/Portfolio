@@ -7,16 +7,28 @@
 
 //console.log connected
 
-const gifElement = document.querySelectorAll('header')
+// const projectElement = document.querySelector(".flex-container2");
+// projectElement.addEventListener('mouseover', mouseOver);
 
-gifElement.addEventListener('mouseenter', mouseOver);
-console.log("hovered over")
+// function mouseOver() {
+//     projectElement.classList.toggle('blue')
+//     }
 
-function mouseOver() {
-    document.getElementById("header").style.color = "red";
-    }
 
-    function mouseOut() {
-    document.getElementById("header").style.color = "red";
+
+// const gifElement = document.querySelector('img');
+// gifElement.addEventListener('mouseover', expandGif);
+
+// function expandGif() {
+//     gifElement.classList.toggle('size');
+//     }
+
+const informationElement = document.querySelector('.projects');
+const informationLinks = document.querySelector('.flex-container2');
+
+informationElement.addEventListener('click', hideFont);
+
+function hideFont() {
+    informationLinks.classList.toggle('hide');;
     }
 

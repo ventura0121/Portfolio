@@ -37,8 +37,8 @@ h1 {
     display: flex;
     margin: auto;
     border: 2px white solid;
-    height: 500px;
-    font-size: larger;
+    height: 400px;
+    font-size: 50px;
 }
 
 .projectOne {
@@ -102,6 +102,24 @@ p::first-letter {
     font-size: 20px;
 }
 
+/* CSS Changes for event Listeners for Portfolio */
+.blue{
+    background-color: skyblue;
+}
+/* This highlights projects in blue */
+.size{
+    width: 500px;
+    height: auto;
+    margin:auto;
+}
+/* Increases picture sizes */
+
+.hide{
+    opacity: 0
+}
+/* Hides Projects */
+
+/* Media Queries used to adjust flex containers in portfolio when resizing screen*/
 @media screen and (max-width: 768px){
     .flex-container{
         flex-direction: column;
