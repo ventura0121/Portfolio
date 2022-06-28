@@ -1,3 +1,6 @@
+@media(min-width: 468px){
+}
+
 body {
     background-color: dimgray;
     color: white;
@@ -11,13 +14,40 @@ h1 {
     text-align: center;
     margin-top: 0em;
     margin-bottom: .2em;
+    border: 5px white solid;
+}
+
+.flex-container{
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+
+.boxOne {
+    flex: 1;
+    justify-content: center;
+}
+
+.boxTwo {
+    flex: 4;
+}
+
+.boxThree {
+    flex: 1;
+    align-content: ;
+}
+
+.flex-container2{
+    display: flex;
+    align-content: center;
+    margin: auto;
 }
 
 h2 {
     font-size: 30px;
     margin: auto;
-    padding: 1%;
     text-align: center;
+    
 }
 
 p{
@@ -27,7 +57,9 @@ p{
 }
 
 img {
-    width: 100%;
+    width: 250px;
+    height: auto;
+    margin:auto;
 }
 
 ul{
@@ -36,7 +68,7 @@ ul{
     justify-content: space-between;
     color: blue;
     font-style: flexbox;
-    font-size: medium;
+    font-size: 20px;
 }
 
 p::first-letter {
@@ -46,17 +78,10 @@ p::first-letter {
 
 .projects{
     font-size: 50px;
+    border: 5px white solid;
 }
 
 #copyright{
     color: white;    
-}
-
-
-.flex-container{
-    display: flex;
-    align-items:flex-start ;
-    background-color: dodgerblue;
-    inner border-;:3px solid black;
-    
+    font-size: 20px;
 }
